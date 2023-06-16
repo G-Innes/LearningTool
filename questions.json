@@ -1,0 +1,116 @@
+[
+    {
+        "ID": 1,
+        "type": "freeform",
+        "question_text": "Define polymorphism in object-oriented programming.",
+        "answer": "Polymorphism refers to the ability of an object to take on many forms or have multiple behaviors.",
+        "num_shown": 0,
+        "num_correct": 0,
+        "regex_pattern": "^\\w+(\\s+\\w+){2,}$"
+    },
+    {
+        "ID": 2,
+        "type": "freeform",
+        "question_text": "Explain inheritance in object-oriented programming.",
+        "answer": "Inheritance allows classes to inherit properties and behaviors from other classes.",
+        "num_shown": 2,
+        "num_correct": 0,
+        "regex_pattern": "^\\w+(\\s+\\w+){2,}$"
+    },
+    {
+        "ID": 3,
+        "type": "freeform",
+        "question_text": "Explain encapsulation in object-oriented programming.",
+        "answer": "Encapsulation involves bundling data and methods together into an object and hiding internal details.",
+        "num_shown": 1,
+        "num_correct": 0,
+        "regex_pattern": "^\\w+(\\s+\\w+){2,}$"
+    },
+    {
+        "ID": 4,
+        "type": "freeform",
+        "question_text": "What is the purpose of the \"super\" keyword?",
+        "answer": "The \"super\" keyword is used to refer to the superclass of a subclass and access its constructor or methods.",
+        "num_shown": 0,
+        "num_correct": 0,
+        "regex_pattern": "^\\w+(\\s+\\w+){2,}$"
+    },
+    {
+        "ID": 5,
+        "type": "freeform",
+        "question_text": "Explain the significance of the \"final\" keyword.",
+        "answer": "The \"final\" keyword prevents inheritance (for classes), method overriding, or variable modification.",
+        "num_shown": 2,
+        "num_correct": 0,
+        "regex_pattern": "^\\w+(\\s+\\w+){2,}$"
+    },
+    {
+        "ID": 6,
+        "type": "quiz",
+        "question_text": "What is encapsulation in object-oriented programming?",
+        "answer": "The process of hiding the internal implementation details of an object",
+        "num_shown": 0,
+        "num_correct": 0,
+        "options": [
+            "The process of hiding the internal implementation details of an object",
+            "The process of creating multiple instances of a class",
+            "The process of inheriting properties from a superclass",
+            "The process of defining the structure of a class"
+        ]
+    },
+    {
+        "ID": 7,
+        "type": "quiz",
+        "question_text": "What is inheritance in object-oriented programming?",
+        "answer": "The process of inheriting properties from a superclass",
+        "num_shown": 0,
+        "num_correct": 0,
+        "options": [
+            "The process of creating multiple instances of a class",
+            "The process of defining the structure of a class",
+            "The process of hiding the internal implementation details of an object",
+            "The process of inheriting properties from a superclass"
+        ]
+    },
+    {
+        "ID": 8,
+        "type": "quiz",
+        "question_text": "What is polymorphism in object-oriented programming?",
+        "answer": "The ability of an object to take on many forms or have multiple behaviors",
+        "num_shown": 0,
+        "num_correct": 0,
+        "options": [
+            "The ability of an object to take on many forms or have multiple behaviors",
+            "The process of creating multiple instances of a class",
+            "The process of hiding the internal implementation details of an object",
+            "The process of defining the structure of a class"
+        ]
+    },
+    {
+        "ID": 9,
+        "type": "quiz",
+        "question_text": "What is a constructor in object-oriented programming?",
+        "answer": "A method that is used to create objects and initialize their state",
+        "num_shown": 0,
+        "num_correct": 0,
+        "options": [
+            "A method that is used to create objects and initialize their state",
+            "A method that is used to hide the internal implementation details of an object",
+            "A method that is used to destroy objects",
+            "A method that cannot be called on objects and belongs to the class itself"
+        ]
+    },
+    {
+        "ID": 10,
+        "type": "quiz",
+        "question_text": "What is a superclass in object-oriented programming?",
+        "answer": "A class that cannot be instantiated and is used as a base for other classes",
+        "num_shown": 0,
+        "num_correct": 0,
+        "options": [
+            "A class that can only be instantiated once",
+            "A class that is completely hidden from other classes",
+            "A class that is derived from another class"
+        ]
+    }
+]

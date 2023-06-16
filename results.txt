@@ -1,0 +1,31 @@
+Score: 8/10 - 2023-06-16 18:12:15
+1. Explain encapsulation in object-oriented programming.: Correct
+
+2. Explain encapsulation in object-oriented programming.: Correct
+
+3. Explain encapsulation in object-oriented programming.: Correct
+
+4. Explain encapsulation in object-oriented programming.: Correct
+
+5. Explain encapsulation in object-oriented programming.: Incorrect
+
+6. Explain encapsulation in object-oriented programming.: Correct
+
+7. Explain encapsulation in object-oriented programming.: Correct
+
+8. Explain encapsulation in object-oriented programming.: Incorrect
+
+9. Explain encapsulation in object-oriented programming.: Correct
+
+10. Explain encapsulation in object-oriented programming.: Correct
+Score: 4/5 - 2023-06-16 18:20:49
+
+1. What is the purpose of the "super" keyword?: Correct
+
+2. What is the purpose of the "super" keyword?: Incorrect 
+
+3. What is the purpose of the "super" keyword?: Correct
+
+4. What is the purpose of the "super" keyword?: Correct
+
+5. What is the purpose of the "super" keyword?: Correct
