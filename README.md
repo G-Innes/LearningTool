@@ -1,4 +1,6 @@
-# Learning Tool
+# Python Learning Tool Program
+
+## Introduction
 
 The Learning Tool program is designed to help users practice and test their knowledge using a set of questions.
 It provides various features such as practice mode, test mode, question management, and statistics tracking.
@@ -7,12 +9,13 @@ It provides various features such as practice mode, test mode, question manageme
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
 
-## Introduction
+## Features
 
 It provides different modes such as practice and test mode, along with statistics tracking and question management.
 Users can add 2 types of questions which are given a unique ID number and stored in a JSON file.
