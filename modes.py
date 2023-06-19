@@ -35,7 +35,7 @@ class PracticeMode:
         # loops through questions at random & breaks when user does not enter 'y' when prompted 
         while True:
 
-            # calculate the weights for each question based on their performance
+            # calculate the weight for each question based on their performance
             weights = []
             for question in self.question_handler.questions:
                 if question.num_shown > 0:
