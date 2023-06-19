@@ -34,9 +34,16 @@ class PracticeMode:
 
         # loops through questions at random & breaks when user does not enter 'y' when prompted 
         while True:
-            # randomely selects questions from question_handler_questions list, assigns weights of 1 if not in disabled q's list
-            # ensures that questions that are disabled are not selected as weighted with 0
-            weights = [1 if i not in self.question_handler.disabled_questions else 0 for i in range(len(self.question_handler.questions))]
+
+            # calculate the weights for each question based on their performance
+            weights = []
+            for question in self.question_handler.questions:
+                if question.num_shown > 0:
+                    weight = question.num_correct / question.num_shown
+                else:
+                    weight = 1 # default weight of 1 if question has not been shown
+                weights.append(weight)
+            
             question = random.choices(self.question_handler.questions, weights=weights)[0]
 
             # if question is active, checks if instance of quiz question & gives answer options enumerating them
