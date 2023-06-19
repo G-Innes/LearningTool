@@ -112,24 +112,33 @@ class TestMode:
                 print("🎉 Correct answer! 🎉")
                 print()
                 score += 1
-                self.results.append("Correct")  # store result as correct 
                 question.num_correct += 1
+                self.results.append("Correct")  # store result as correct 
+                
             else:
                 print()
                 print("Incorrect answer! 👎🏻")
                 print()
                 self.results.append("Incorrect ")  # store result as incorrect
             question.num_shown += 1
-        self.save_results(score, num_questions, question.question_text) # calls method with relevant parameters
+        self.save_results(score, num_questions, test_questions) # calls method with relevant parameters
 
         print(f"Test score: {score}/{num_questions}")
 
     # method to take results of the text and save to results.txt file with timestamp, questions and whether user got crooect or not 
-    def save_results(self, score, num_questions, question_text):
+    def save_results(self, score, num_questions, questions):
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         result_string = f"Score: {score}/{num_questions} - {timestamp}\n\n"
-        question_results = [f"{i+1}. {question_text}: {result}\n" for i, result in enumerate(self.results)]
+        question_results = []
+
+        for i , result in enumerate(self.results):
+            question_result = f"{i+1}. {questions[i].question_text}: {result}\n"
+            question_results.append(question_result)
+
         result_string += "\n".join(question_results)
 
         with open(self.test_results, "a") as file:
             file.write(result_string)
+
+            # Bug fix- 19/6/23: question text not being added correctly to results.txt
+            # edited argument in method call, ammended loop to access each question text
