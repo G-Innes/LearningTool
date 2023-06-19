@@ -82,12 +82,14 @@ class TestMode:
         if len(self.question_handler.questions) < 5:
             print("At least 5 questions are required to enter test mode.")
             return
-
-        num_questions = int(input("Enter the number of questions for the test: "))
-        if num_questions > len(self.question_handler.questions):
-            print("Not enough questions available.")
+        try:
+            num_questions = int(input("Enter the number of questions for the test: "))
+            if num_questions > len(self.question_handler.questions):
+                print("Not enough questions available.")
+                return
+        except ValueError:
+            print("Entry must be an integer")
             return
-
         # randomly selects the number of questions from the list & assigns to test_questions
         test_questions = random.sample(self.question_handler.questions, num_questions)
         score = 0
@@ -139,6 +141,3 @@ class TestMode:
 
         with open(self.test_results, "a") as file:
             file.write(result_string)
-
-            # Bug fix- 19/6/23: question text not being added correctly to results.txt
-            # edited argument in method call, ammended loop to access each question text

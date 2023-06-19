@@ -49,16 +49,15 @@ class QuestionHandler:
     # method for adding questions to the self.questions list
     # choose between the 2 types, checks if input is valid & loops if not 
     def add_question(self):
-        question_type = input("Enter the type of question (quiz/freeform): ")
+        question_type = input("Enter the type of question 'quiz' or 'freeform' (q to exit): ")
 
-        while question_type.lower() not in ["quiz", "freeform"]:
-            print("Invalid question type. Choose 'quiz' or 'freeform'")
+        while question_type.lower() not in ["quiz", "freeform", "q"]:
+            print("Invalid question type. Choose 'quiz' or 'freeform' (or q)")
             question_type = input("Enter the type of question (quiz/freeform): ")
 
-        question_text = input("Enter the question text: ")
-        
         # if quiz question, prompts for correct answer & assig ns to variable
         if question_type.lower() == "quiz":
+            question_text = input("Enter the question text: ")
             correct_answer = input("Enter the correct answer: ")
             answers = []
             # loops for answer options until 'q' is entered (must include the correct answer again)
@@ -73,11 +72,13 @@ class QuestionHandler:
 
         # if freeform question, user is prompted for answer and the regex pattern for matching
         elif question_type.lower() == "freeform":
+            question_text = input("Enter the question text: ")
             answer = input("Enter the answer: ")
             regex_pattern = input("Enter the regex pattern for the answer: ")
             # creates question as FreeformQuestion object and appends to list
             self.questions.append(FreeFormQuestion(question_text, answer, regex_pattern))
-
+        else:
+            return
         print("Question added successfully!")
 
     # method for saving questions in 'self.questions' list to JSON file

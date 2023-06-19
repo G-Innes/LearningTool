@@ -1,24 +1,79 @@
-Score: 8/10 - 2023-06-16 18:12:15
-1. Explain encapsulation in object-oriented programming.: Correct
+Score: 1/5 - 2023-06-19 11:03:42
 
-2. Explain encapsulation in object-oriented programming.: Correct
+1. What is inheritance in object-oriented programming?: Correct
 
-3. Explain encapsulation in object-oriented programming.: Correct
+2. What is inheritance in object-oriented programming?: Incorrect 
 
-4. Explain encapsulation in object-oriented programming.: Correct
+3. What is inheritance in object-oriented programming?: Correct
 
-5. Explain encapsulation in object-oriented programming.: Incorrect
+4. What is inheritance in object-oriented programming?: Correct
 
-6. Explain encapsulation in object-oriented programming.: Correct
+5. What is inheritance in object-oriented programming?: Correct
 
-7. Explain encapsulation in object-oriented programming.: Correct
+6. What is inheritance in object-oriented programming?: Incorrect 
 
-8. Explain encapsulation in object-oriented programming.: Incorrect
+7. What is inheritance in object-oriented programming?: Incorrect 
 
-9. Explain encapsulation in object-oriented programming.: Correct
+8. What is inheritance in object-oriented programming?: Incorrect 
 
-10. Explain encapsulation in object-oriented programming.: Correct
-Score: 4/5 - 2023-06-16 18:20:49
+9. What is inheritance in object-oriented programming?: Incorrect 
+
+10. What is inheritance in object-oriented programming?: Incorrect 
+
+11. What is inheritance in object-oriented programming?: Correct
+Score: 2/5 - 2023-06-19 11:03:45
+
+1. What is polymorphism in object-oriented programming?: Correct
+
+2. What is polymorphism in object-oriented programming?: Incorrect 
+
+3. What is polymorphism in object-oriented programming?: Correct
+
+4. What is polymorphism in object-oriented programming?: Correct
+
+5. What is polymorphism in object-oriented programming?: Correct
+
+6. What is polymorphism in object-oriented programming?: Incorrect 
+
+7. What is polymorphism in object-oriented programming?: Incorrect 
+
+8. What is polymorphism in object-oriented programming?: Incorrect 
+
+9. What is polymorphism in object-oriented programming?: Incorrect 
+
+10. What is polymorphism in object-oriented programming?: Incorrect 
+
+11. What is polymorphism in object-oriented programming?: Correct
+
+12. What is polymorphism in object-oriented programming?: Correct
+Score: 3/5 - 2023-06-19 11:03:53
+
+1. Explain inheritance in object-oriented programming.: Correct
+
+2. Explain inheritance in object-oriented programming.: Incorrect 
+
+3. Explain inheritance in object-oriented programming.: Correct
+
+4. Explain inheritance in object-oriented programming.: Correct
+
+5. Explain inheritance in object-oriented programming.: Correct
+
+6. Explain inheritance in object-oriented programming.: Incorrect 
+
+7. Explain inheritance in object-oriented programming.: Incorrect 
+
+8. Explain inheritance in object-oriented programming.: Incorrect 
+
+9. Explain inheritance in object-oriented programming.: Incorrect 
+
+10. Explain inheritance in object-oriented programming.: Incorrect 
+
+11. Explain inheritance in object-oriented programming.: Correct
+
+12. Explain inheritance in object-oriented programming.: Correct
+
+13. Explain inheritance in object-oriented programming.: Correct
+Score: 4/5 - 2023-06-19 11:04:02
 
 1. What is the purpose of the "super" keyword?: Correct
 
@@ -29,3 +84,137 @@ Score: 4/5 - 2023-06-16 18:20:49
 4. What is the purpose of the "super" keyword?: Correct
 
 5. What is the purpose of the "super" keyword?: Correct
+
+6. What is the purpose of the "super" keyword?: Incorrect 
+
+7. What is the purpose of the "super" keyword?: Incorrect 
+
+8. What is the purpose of the "super" keyword?: Incorrect 
+
+9. What is the purpose of the "super" keyword?: Incorrect 
+
+10. What is the purpose of the "super" keyword?: Incorrect 
+
+11. What is the purpose of the "super" keyword?: Correct
+
+12. What is the purpose of the "super" keyword?: Correct
+
+13. What is the purpose of the "super" keyword?: Correct
+
+14. What is the purpose of the "super" keyword?: Correct
+Score: 5/5 - 2023-06-19 11:04:10
+
+1. Explain encapsulation in object-oriented programming.: Correct
+
+2. Explain encapsulation in object-oriented programming.: Incorrect 
+
+3. Explain encapsulation in object-oriented programming.: Correct
+
+4. Explain encapsulation in object-oriented programming.: Correct
+
+5. Explain encapsulation in object-oriented programming.: Correct
+
+6. Explain encapsulation in object-oriented programming.: Incorrect 
+
+7. Explain encapsulation in object-oriented programming.: Incorrect 
+
+8. Explain encapsulation in object-oriented programming.: Incorrect 
+
+9. Explain encapsulation in object-oriented programming.: Incorrect 
+
+10. Explain encapsulation in object-oriented programming.: Incorrect 
+
+11. Explain encapsulation in object-oriented programming.: Correct
+
+12. Explain encapsulation in object-oriented programming.: Correct
+
+13. Explain encapsulation in object-oriented programming.: Correct
+
+14. Explain encapsulation in object-oriented programming.: Correct
+
+15. Explain encapsulation in object-oriented programming.: Correct
+Score: 1/5 - 2023-06-19 11:13:47
+
+1. What is encapsulation in object-oriented programming?: Incorrect 
+
+2. What is encapsulation in object-oriented programming?: Incorrect 
+
+3. What is encapsulation in object-oriented programming?: Incorrect 
+
+4. What is encapsulation in object-oriented programming?: Incorrect 
+
+5. What is encapsulation in object-oriented programming?: Correct
+Score: 4/5 - 2023-06-19 11:56:15
+
+1. E: Correct
+
+2. x: Correct
+
+3. p: Incorrect 
+
+4. l: Correct
+
+5. a: Correct
+Score: 0/5 - 2023-06-19 12:07:54
+
+1. What is a superclass in object-oriented programming?: Incorrect 
+
+2. What is a superclass in object-oriented programming?: Incorrect 
+
+3. What is a superclass in object-oriented programming?: Incorrect 
+
+4. What is a superclass in object-oriented programming?: Incorrect 
+
+5. What is a superclass in object-oriented programming?: Incorrect 
+Score: 0/5 - 2023-06-19 12:09:35
+
+1. W: Incorrect 
+
+2. h: Incorrect 
+
+3. a: Incorrect 
+
+4. t: Incorrect 
+
+5.  : Incorrect 
+Score: 0/5 - 2023-06-19 12:16:38
+
+1. What is encapsulation in object-oriented programming?: Incorrect 
+
+2. What is a constructor in object-oriented programming?: Incorrect 
+
+3. What is a superclass in object-oriented programming?: Incorrect 
+
+4. What is inheritance in object-oriented programming?: Incorrect 
+
+5. Explain inheritance in object-oriented programming.: Incorrect 
+Score: 4/5 - 2023-06-19 13:10:53
+
+1. What is polymorphism in object-oriented programming?: Correct
+
+2. Explain encapsulation in object-oriented programming.: Correct
+
+3. Define polymorphism in object-oriented programming.: Correct
+
+4. What is inheritance in object-oriented programming?: Correct
+
+5. What is a superclass in object-oriented programming?: Incorrect 
+Score: 0/1 - 2023-06-19 17:09:21
+
+1. what does a dog say: Incorrect 
+Score: 0/5 - 2023-06-19 17:10:51
+
+1. What is the purpose of the "super" keyword?: Incorrect 
+
+2. What is encapsulation in object-oriented programming?: Incorrect 
+
+3. what does a dog say: Incorrect 
+
+4. What is inheritance in object-oriented programming?: Incorrect 
+
+5. what does a dig say?: Incorrect 
+Score: 0/2 - 2023-06-19 17:13:16
+
+1. what does a dog say: Incorrect 
+
+2. What is the purpose of the "super" keyword?: Incorrect 

@@ -38,9 +38,13 @@ class QuestionModifier:
 
     # prompts user to enter ID of question retrieves question from questions list -1 so indexing matches ID
     def disable_question(self):
-        question_id = int(input("Enter the ID of the question to disable: "))
-        question = self.questions[question_id - 1]
-
+        try:
+            question_id = int(input("Enter the ID of the question to disable: "))
+            question = self.questions[question_id - 1]
+        except (ValueError, IndexError):
+            print("Incorrect entry type. Must be an integer within questions index")
+            return
+        
         # prints details of question selected & prompts for confirmation & sets active status to false, adds to disabled questions list
         print("Question Details:")
         print(f"Question Text: {question.question_text}")
@@ -50,16 +54,28 @@ class QuestionModifier:
             question.active = False
             self.disabled_questions.add(question_id - 1)
             print("Question disabled successfully!")
+        else:
+            print("No action taken")
 
     def enable_question(self):
-        question_id = int(input("Enter the ID of the question to enable: "))
-        question = self.questions[question_id - 1]
+        try:
+            question_id = int(input("Enter the ID of the question to enable: "))
+            question = self.questions[question_id - 1]
+        except (ValueError, IndexError):
+            print("Incorrect entry type. Must be an integer within questions index")
+            return
         print("Question Details:")
         print(f"Question Text: {question.question_text}")
         print(f"Answer: {question.answer}")
         # prints details of question selected & prompts for confirmation & sets active status to true, removes from disabled questions list
         confirmation = input("Are you sure you want to enable this question? (y/n): ")
         if confirmation.lower() == "y":
-            question.active = True
-            self.disabled_questions.remove(question_id - 1)
-            print("Question enabled successfully!")
+            try:
+                question.active = True
+                self.disabled_questions.remove(question_id - 1)
+                print("Question enabled successfully!")
+            except KeyError:
+                print("Question already active")
+                return
+        else:
+            print("No action taken")
